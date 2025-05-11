@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
 
     https://www.sfml-dev.org/tutorials/3.0/getting-started/visual-studio/#creating-and-configuring-an-sfml-project
 
-    Do not forget to add " PATH=C:\SFML-2\bin " in Configuration Properties --> Debugging --> Environment in case you go for the dynamic version of SFML 
+    Do not forget to add link to the bin folder of SFML (eg: "PATH=C:\SFML-2\bin ") in Configuration Properties --> Debugging --> Environment in case you go for the dynamic version of SFML 
 
     
 ### Step 3: Build and Run the Game
