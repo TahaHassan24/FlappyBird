@@ -1,8 +1,8 @@
-#Flappy Bird Clone - README
+# Flappy Bird Clone - README
 ##Overview
 
 This project is a clone of the popular Flappy Bird game, developed using C++ and the SFML 2.5.1. The objective is to score points by passing through the gaps in the pipes.
-##Features
+## Features
 
     Playable game with scoring system
     Difficulty levels (Easy, Medium, Hard)
@@ -10,7 +10,7 @@ This project is a clone of the popular Flappy Bird game, developed using C++ and
     High score tracking
     Restart and menu options
 
-##Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -21,26 +21,26 @@ Before you begin, ensure you have met the following requirements:
     SFML 2.5.1 library
     https://www.sfml-dev.org/download/sfml/2.5.1/
 
-##Setup Instructions
+## Setup Instructions
 
-###Step 1: Create a New Project in Visual Studio
+### Step 1: Create a New Project in Visual Studio
 
     Open Visual Studio.
     Click on Create a new project.
     Select Empty Project under C++ and click Next.
 
-###Step 2: Configure Project Properties
+### Step 2: Configure Project Properties
     Follow the instructions given in the following webpage to configure your project:
 
     https://www.sfml-dev.org/tutorials/3.0/getting-started/visual-studio/#creating-and-configuring-an-sfml-project
 
     
-##Step 3: Build and Run the Game
+## Step 3: Build and Run the Game
 
     Build your project by clicking on Build -> Build Solution.
     If there are no errors, run the game by clicking on Debug -> Start Without Debugging.
 
-##Controls
+## Controls
 
     Press ENTER to start the game.
     Press SPACE to flap the bird.
