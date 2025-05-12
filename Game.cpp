@@ -140,8 +140,8 @@ void Game::startGameLoop(){
 				win.close();
 			}
 
-			if (event.type == sf::Event::KeyPressed) {
-				if (event.key.code == sf::Keyboard::M) {
+			if (event.type == Event::KeyPressed) {
+				if (event.key.code == Keyboard::M) {
 					if (isMuted) {
 						music.play();
 						isMuted = false;
@@ -244,6 +244,7 @@ void Game::checkCollisions(){
 			is_enter_pressed = false;
 			run_game = false;
 			deadSound.play();
+			highscoreText.setString("Score: " + to_string(score) + "\nHigh Score: " + to_string(highscore));
 		}
 	}
 }
@@ -321,13 +322,14 @@ void Game::Scoring() {
 				score++;
 				string b = to_string(score);
 				scoreText.setString(b);
-				check = 0;
+				check = false;
 
 				if (score > highscore) {
 					highscore = score;
 					
 					string temp2 = to_string(highscore);
 					highscoreText.setString("Score: " + b + "\nHigh Score : " + temp2);
+
 					ofstream file(getFileName());
 					if (file.is_open()) {
 						file << highscore;
