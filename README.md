@@ -1,7 +1,7 @@
 # Flappy Bird Clone - README
 ## Overview
 
-This project is a clone of the popular Flappy Bird game, developed using C++ and the SFML 2.5.1. The objective is to score points by passing through the gaps in the pipes.
+This project is a clone of the popular Flappy Bird game, developed using C++ and SFML 2.5.1. The objective is to score points by passing through the gaps in the pipes.
 ## Features
 
     Playable game with scoring system
